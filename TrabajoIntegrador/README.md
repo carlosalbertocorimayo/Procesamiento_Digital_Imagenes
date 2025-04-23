@@ -71,3 +71,9 @@ En el cuaderno compartido se desarrolló una serie de pasos progresivos con el o
 - Análisis automático de imágenes por color.
 - Preprocesamiento para clasificadores.
 - Extracción de objetos en imágenes RGB.
+
+## Cómo usarlo
+
+1. Abrí el cuaderno en Google Colab.
+2. Ejecutá las celdas en orden.
+3. Observá los resultados visuales de cada etapa del procesamiento.
