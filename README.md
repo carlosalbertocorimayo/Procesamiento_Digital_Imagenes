@@ -1,8 +1,3 @@
----
-title: Proyecto Integrador - Procesamiento de Imágenes
-layout: default
----
-
 # Proyecto Integrador - Técnicas de Procesamiento Digital de Imágenes
 
 Este repositorio recopila las actividades prácticas realizadas para la materia **Técnicas de Procesamiento Digital de Imágenes**, correspondiente a la carrera de **Ciencias de Datos e Inteligencia Artificial** del **IFTS N° 24**.
@@ -46,7 +41,7 @@ Este proyecto integrador es el primero de una serie de trabajos prácticos que s
 
 ---
 
-> Para más detalles técnicos sobre cada sección, consultar los respectivos cuadernos dentro de la carpeta "Trabajo Integrador".
+> Para más detalles técnicos sobre cada sección, consultar los respectivos cuadernos dentro de cada carpeta.
 
 ---
 
