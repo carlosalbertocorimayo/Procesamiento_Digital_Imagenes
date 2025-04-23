@@ -1,4 +1,4 @@
-# Actividades realizadas en el proyecto
+# Trabajo Integrador
 
 En el cuaderno compartido se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas (formas, estructuras y patrones que se pueden identificar dentro de una imagen). Se toma como base todos los recursos aprendidos y utilizados en cuadernos anteriores para un análisis completo. Para ello, se trabajó con imágenes representativas de las casas de Hogwarts (Harry Potter) para explorar técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
 
