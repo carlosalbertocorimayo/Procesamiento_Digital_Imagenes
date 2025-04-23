@@ -1,14 +1,9 @@
----
-title: Análisis y Segmentación de Imágenes RGB
-layout: default
----
+## Sobre este repositorio
+En el siguiente repositorio se subirán todas las actividades prácticas realizadas para la materia **Técnicas de Procesamiento Digital de Imágenes**, correspondiente a la carrera de **Ciencias de Datos e Inteligencia Artificial** del **IFTS N° 24**.
 
 # Análisis y Segmentación de Imágenes RGB
 
 Este proyecto explora técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
-
-## Sobre este repositorio
-En el siguiente repositorio se subirán todas las actividades prácticas realizadas para la materia **Técnicas de Procesamiento Digital de Imágenes**, correspondiente a la carrera de **Ciencias de Datos e Inteligencia Artificial** del **IFTS N° 24**.
 
 ## Contenido del Proyecto
 
