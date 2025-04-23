@@ -1,7 +1,6 @@
+# Actividades realizadas en el proyecto
 
-# Análisis y Segmentación de Imágenes RGB
-
-Este proyecto explora técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
+En el cuaderno compartido se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas. Se trabajó con imágenes representativas de casas de Hogwarts para explorar los temas abordados en los proyectos anteriores. Es decir, este proyecto explora técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
 
 ## Contenido del Proyecto
 
