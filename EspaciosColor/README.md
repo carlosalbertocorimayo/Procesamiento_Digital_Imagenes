@@ -1,12 +1,12 @@
-# 🖼️ Espacios de Color en Imágenes Digitales
+# Espacios de Color en Imágenes Digitales
 
 Este cuaderno introduce los fundamentos del manejo de **espacios de color** en imágenes digitales, y las diferencias clave entre los formatos utilizados por diferentes bibliotecas de Python como OpenCV y Matplotlib.
 
-## 🎯 Objetivo
+## Objetivo
 
 Explorar la representación y conversión de imágenes entre los espacios de color **RGB** y **BGR**, comprendiendo su impacto en el análisis y visualización.
 
-## 📚 Contenidos del Cuaderno
+## Contenidos del Cuaderno
 
 1. **Introducción a los espacios de color:**
    - RGB (Red, Green, Blue)
@@ -29,7 +29,7 @@ Explorar la representación y conversión de imágenes entre los espacios de col
    - Utilizar funciones de conversión adecuadas
    - Documentar los pasos y formatos utilizados
 
-## 🧪 Ejemplo Integrador
+## Ejemplo Integrador
 
 Al final del cuaderno se presenta un ejemplo práctico que aplica todos los conceptos previamente discutidos. En esta sección se:
 
@@ -40,9 +40,15 @@ Al final del cuaderno se presenta un ejemplo práctico que aplica todos los conc
 
 Este ejemplo permite reforzar el entendimiento sobre los espacios de color y explorar nuevas formas de visualización creativa.
 
-## 🛠 Herramientas Utilizadas
+## Herramientas Utilizadas
 
 - **Python 3.x**
 - **OpenCV (`cv2`)**
 - **Matplotlib**
 - **NumPy**
+
+## Cómo usarlo
+
+1. Abrí el cuaderno en Google Colab.
+2. Ejecutá las celdas en orden.
+3. Observá los resultados visuales de cada etapa del procesamiento.
