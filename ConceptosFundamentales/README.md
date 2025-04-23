@@ -1,9 +1,9 @@
-# 🧪 Laboratorio de Procesamiento de Imágenes - Cuaderno 001
+# Conceptos y Ténicas Fundamentales del Procesamiento Digital de Imágenes
 
 Este cuaderno explora conceptos y técnicas fundamentales de **procesamiento digital de imágenes** usando Python. 
 Se utilizan principalmente las bibliotecas `scikit-image`, `matplotlib`, y `numpy`.
 
-## 🔧 Contenido del Cuaderno
+## Contenido del Cuaderno
 
 - Instalación de librerías necesarias (`scikit-image`, `watermark`)
 - Descarga de una imagen desde la web (usando `wget` o `requests`)
@@ -13,23 +13,17 @@ Se utilizan principalmente las bibliotecas `scikit-image`, `matplotlib`, y `nump
 - Cuantización: reducción del número de niveles de gris
 - Visualización comparativa de resultados
 
-## 🎯 Objetivo
+## Objetivo
 
 Proporcionar una introducción práctica al procesamiento de imágenes, con énfasis en técnicas de cuantización 
 y visualización. Ideal para estudiantes o desarrolladores principiantes en visión por computadora y análisis de imágenes.
 
-## 🛠 Requisitos
-
-Asegúrate de tener las siguientes bibliotecas instaladas:
-
-```bash
-pip install scikit-image matplotlib numpy watermark
-```
-
-## 📷 Imagen de muestra
+## Imagen de muestra
 
 Se utiliza una imagen descargada desde un recurso en línea para los ejercicios.
 
----
+## Cómo usarlo
 
-Este cuaderno está diseñado para ser educativo y fácil de seguir.
+1. Abrí el cuaderno en Google Colab.
+2. Ejecutá las celdas en orden.
+3. Observá los resultados visuales de cada etapa del procesamiento.
