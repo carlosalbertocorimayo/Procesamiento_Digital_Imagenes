@@ -10,6 +10,9 @@ El repositorio está pensado como base para extender estos conocimientos a nuevo
 
 ## Proyectos incluidos en este repositorio
 
+🧪 **Nivelación en Python**  
+Este cuaderno está orientado a reforzar conocimientos esenciales de Python para facilitar la comprensión de futuros cuadernos. Se trabajan estructuras de datos, control de flujo, funciones, manipulación de arrays con NumPy y visualización básica con Matplotlib.
+
 🧪 **Conceptos y Técnicas Fundamentales**  
 Este cuaderno presenta una introducción práctica al procesamiento digital de imágenes en Python. Se abordan conceptos básicos como:
 
@@ -20,9 +23,6 @@ Este cuaderno presenta una introducción práctica al procesamiento digital de i
 - Comparación visual entre versiones originales y procesadas.
 
 El laboratorio está orientado a consolidar los fundamentos para futuros ejercicios relacionados con análisis y visualización de imágenes.
-
-🧪 **Nivelación en Python**  
-Este cuaderno está orientado a reforzar conocimientos esenciales de Python para facilitar la comprensión de futuros cuadernos. Se trabajan estructuras de datos, control de flujo, funciones, manipulación de arrays con NumPy y visualización básica con Matplotlib.
 
 🧪 **Espacios de Color y Visualización**  
 Este cuaderno explora los fundamentos del manejo de espacios de color en imágenes digitales, centrándose en las diferencias entre RGB y BGR.  
