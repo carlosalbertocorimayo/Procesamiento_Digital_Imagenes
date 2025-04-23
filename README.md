@@ -69,6 +69,12 @@ Cada nuevo proyecto seguirá esta misma estructura y enfoque, permitiendo así c
 
 Para más detalles técnicos sobre cada sección, consultar los respectivos cuadernos dentro de cada carpeta.
 
+## Licencia
+
+Este repositorio está licenciado bajo la Licencia MIT. Esto permite reutilizar el código para fines educativos o personales, con libertad para modificarlo o integrarlo en otros proyectos, siempre y cuando se incluya una copia de la licencia original.
+
+Para más detalles, consultá el archivo [LICENSE](./LICENSE).
+
 ## Contacto
 
 Si tenés preguntas, sugerencias o simplemente querés conectar, podés escribirme a:
