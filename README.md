@@ -1,76 +1,53 @@
-## Sobre este repositorio
-En el siguiente repositorio se subirán todas las actividades prácticas realizadas para la materia **Técnicas de Procesamiento Digital de Imágenes**, correspondiente a la carrera de **Ciencias de Datos e Inteligencia Artificial** del **IFTS N° 24**.
+---
+title: Proyecto Integrador - Procesamiento de Imágenes
+layout: default
+---
 
-# Análisis y Segmentación de Imágenes RGB
+# Proyecto Integrador - Técnicas de Procesamiento Digital de Imágenes
 
-Este proyecto explora técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
+Este repositorio recopila las actividades prácticas realizadas para la materia **Técnicas de Procesamiento Digital de Imágenes**, correspondiente a la carrera de **Ciencias de Datos e Inteligencia Artificial** del **IFTS N° 24**.
 
-## Contenido del Proyecto
+## Propósito del Repositorio
+Este espacio está dedicado al desarrollo de prácticas y proyectos integradores centrados en el procesamiento digital de imágenes. El objetivo principal es aplicar conocimientos teóricos mediante ejercicios prácticos utilizando imágenes reales, desarrollados íntegramente en entornos interactivos como Google Colab. 
 
-### 1. Carga y Visualización de Imágenes
-- Se cargan imágenes en formato RGB usando `cv2.imread`, `plt.imread`, y `Image.open` (PIL).
-- Se visualizan con Matplotlib y se realizan conversiones de formato de color (RGB, escala de grises).
+El repositorio está pensado como base para extender estos conocimientos a nuevos proyectos relacionados con visión por computadora, inteligencia artificial y análisis de imágenes.
 
-### 2. Análisis de Canales de Color (BGR)
-- Se separan los canales Azul, Verde y Rojo.
-- Se analizan sus valores mínimos, máximos y promedios.
-- Se visualizan como imágenes individuales en escala de grises.
+## Proyectos incluidos en este repositorio
 
-### 3. Histogramas de Canales
-- Se generan histogramas para cada canal de color.
-- Se marca el valor promedio con una línea punteada.
+### Proyecto Integrador: Análisis y Segmentación de Imágenes
 
-### 4. Muestreo de Imagen
-- Se reduce la resolución de la imagen por factores de 2, 4 y 8.
-- Se calcula el porcentaje de reducción.
-- Se visualizan en una cuadrícula junto a texto informativo.
+En este proyecto se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas. Se trabajó con imágenes representativas de casas de Hogwarts para explorar lo siguiente:
 
-### 5. Cuantización en Escala de Grises
-- Se convierte la imagen a escala de grises con `PIL.convert("L")`.
-- Se aplica cuantización a 256, 128, 64 y 32 niveles.
-- Se visualizan en una grilla 2x2.
+- Lectura y visualización de imágenes en formato RGB.
+- Separación y análisis individual de los canales de color (Rojo, Verde y Azul).
+- Construcción e interpretación de histogramas para cada canal.
+- Muestreo espacial: reducción de resolución con diferentes factores.
+- Cuantización de imágenes en escala de grises a distintos niveles de profundidad.
+- Segmentación por color a partir de umbrales definidos manualmente.
+- Creación de máscaras binarias para extraer objetos de interés.
+- Detección de bordes de forma manual y con funciones de OpenCV.
+- Delimitación de objetos mediante contornos y cajas delimitadoras (bounding boxes).
 
-### 6. Segmentación por Color
-- Se definen umbrales de color (rojo, verde, azul, amarillo).
-- Se crea una imagen binaria basada en esos umbrales.
-- Se aplica una máscara para segmentar regiones de ese color.
+Estas técnicas fueron aplicadas de forma secuencial, con visualización inmediata de los resultados en cada etapa, facilitando el análisis visual del procesamiento.
 
-### 7. Detección y Delimitación de Objetos
+## Herramientas Utilizadas
+- **Google Colab**: plataforma en la nube para ejecutar cuadernos interactivos.
+- **Python 3.x**
+- Bibliotecas principales: `NumPy`, `Matplotlib`, `OpenCV`, `Pillow`
 
-#### A. Búsqueda Manual de Bordes
-- Se compara cada píxel con sus vecinos para detectar cambios.
-- Se marca el borde y se superpone sobre la imagen original en rojo.
+### ¿Cómo usar los cuadernos de Google Colab?
+1. Accedé al cuaderno desde el enlace proporcionado o subí el archivo `.ipynb` a tu cuenta de Google Drive.
+2. Abrí el cuaderno con Google Colab.
+3. Verificá que la imagen requerida esté cargada si corresponde.
+4. Ejecutá las celdas en orden para observar paso a paso cada análisis.
 
-#### B. Delimitación Manual con Rectángulo
-- Se encuentran coordenadas extremas de los píxeles activados.
-- Se dibuja un rectángulo con `matplotlib.plot`.
+## Expansión del Repositorio
+Este proyecto integrador es el primero de una serie de trabajos prácticos que se irán agregando. Cada nuevo proyecto seguirá esta misma estructura y enfoque, permitiendo así construir un repositorio didáctico y de referencia para temas relacionados con el procesamiento digital de imágenes.
 
-#### C. Delimitación Automática con OpenCV
-- Se usa `cv2.findContours` para detectar objetos.
-- Se calcula el "bounding box" del objeto más grande.
-- Se dibuja con `cv2.rectangle`.
+---
 
-## Requisitos
+> Para más detalles técnicos sobre cada sección, consultar los respectivos cuadernos dentro de la carpeta "Trabajo Integrador".
 
-- Python 3.x
-- numpy
-- matplotlib
-- opencv-python
-- pillow
+---
 
-## Ejecución
-
-1. Instalar las dependencias si es necesario:
-   ```bash
-   pip install numpy matplotlib opencv-python pillow
-   ```
-
-2. Cargar la imagen base (por ejemplo, `houses-hp.jpg`).
-
-3. Ejecutar los bloques de código por sección, según el análisis deseado.
-
-## Aplicaciones
-- Sistemas de visión por computador.
-- Análisis automático de imágenes por color.
-- Preprocesamiento para clasificadores.
-- Extracción de objetos en imágenes RGB.
+¡Gracias por visitar este repositorio!
