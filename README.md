@@ -10,6 +10,18 @@ El repositorio está pensado como base para extender estos conocimientos a nuevo
 
 ## Proyectos incluidos en este repositorio
 
+### 🧪 Conceptos y Técnicas Fundamentales
+
+Este cuaderno presenta una introducción práctica al procesamiento digital de imágenes en Python. Se abordan conceptos básicos como:
+
+- Instalación de bibliotecas (`scikit-image`, `matplotlib`, `watermark`).
+- Descarga y carga de imágenes desde la web.
+- Visualización y conversión a escala de grises.
+- Cuantización de imágenes: reducción de niveles de gris.
+- Comparación visual entre versiones originales y procesadas.
+
+El laboratorio está orientado a consolidar los fundamentos para futuros ejercicios relacionados con análisis y visualización de imágenes.
+
 ### 📌 Proyecto Integrador: Análisis y Segmentación de Imágenes
 
 En este proyecto se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas. Se trabajó con imágenes representativas de casas de Hogwarts para explorar lo siguiente:
@@ -25,18 +37,6 @@ En este proyecto se desarrolló una serie de pasos progresivos con el objetivo d
 - Delimitación de objetos mediante contornos y cajas delimitadoras (bounding boxes).
 
 Estas técnicas fueron aplicadas de forma secuencial, con visualización inmediata de los resultados en cada etapa, facilitando el análisis visual del procesamiento.
-
-### 🧪 LAB IMG 001: Introducción al Procesamiento de Imágenes y Cuantización
-
-Este cuaderno presenta una introducción práctica al procesamiento digital de imágenes en Python. Se abordan conceptos básicos como:
-
-- Instalación de bibliotecas (`scikit-image`, `matplotlib`, `watermark`).
-- Descarga y carga de imágenes desde la web.
-- Visualización y conversión a escala de grises.
-- Cuantización de imágenes: reducción de niveles de gris.
-- Comparación visual entre versiones originales y procesadas.
-
-El laboratorio está orientado a consolidar los fundamentos para futuros ejercicios relacionados con análisis y visualización de imágenes.
 
 ## Herramientas Utilizadas
 
