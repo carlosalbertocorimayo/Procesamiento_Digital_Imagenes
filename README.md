@@ -1,6 +1,6 @@
-# Proyecto Integrador - Técnicas de Procesamiento Digital de Imágenes
+# Técnicas de Procesamiento Digital de Imágenes
 
-Este repositorio recopila las actividades prácticas realizadas para la materia Técnicas de Procesamiento Digital de Imágenes, correspondiente a la carrera de Ciencias de Datos e Inteligencia Artificial del IFTS N° 24.
+Este repositorio recopila las actividades prácticas realizadas para la materia Técnicas de Procesamiento Digital de Imágenes, correspondiente a la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial del IFTS N° 24.
 
 ## Propósito del Repositorio
 
@@ -10,11 +10,10 @@ El repositorio está pensado como base para extender estos conocimientos a nuevo
 
 ## Proyectos incluidos en este repositorio
 
-### 🧪 Conceptos y Técnicas Fundamentales
-
+🧪 **Conceptos y Técnicas Fundamentales**  
 Este cuaderno presenta una introducción práctica al procesamiento digital de imágenes en Python. Se abordan conceptos básicos como:
 
-- Instalación de bibliotecas (`scikit-image`, `matplotlib`, `watermark`).
+- Instalación de bibliotecas (scikit-image, matplotlib, watermark).
 - Descarga y carga de imágenes desde la web.
 - Visualización y conversión a escala de grises.
 - Cuantización de imágenes: reducción de niveles de gris.
@@ -22,8 +21,21 @@ Este cuaderno presenta una introducción práctica al procesamiento digital de i
 
 El laboratorio está orientado a consolidar los fundamentos para futuros ejercicios relacionados con análisis y visualización de imágenes.
 
-### 📌 Proyecto Integrador: Análisis y Segmentación de Imágenes
+🧪 **Nivelación en Python**  
+Este cuaderno está orientado a reforzar conocimientos esenciales de Python para facilitar la comprensión de futuros cuadernos. Se trabajan estructuras de datos, control de flujo, funciones, manipulación de arrays con NumPy y visualización básica con Matplotlib.
 
+🧪 **Espacios de Color y Visualización**  
+Este cuaderno explora los fundamentos del manejo de espacios de color en imágenes digitales, centrándose en las diferencias entre RGB y BGR.  
+Se analiza cómo estas representaciones afectan la visualización y el procesamiento con bibliotecas como OpenCV y Matplotlib. 
+A través de un ejemplo integrador, se aplican estos conceptos en la práctica y se experimenta con distintos mapas de color, mostrando cómo varía la percepción visual según el esquema elegido.
+
+🧪 **Segmentación Simple por Color**
+Este cuaderno presenta una técnica básica de segmentación aplicando un umbral sobre la imagen convertida a escala de grises. A través del análisis de los canales de color y la conversión entre espacios BGR y RGB, se identifican regiones destacadas por su intensidad. Se visualizan los pasos y resultados usando OpenCV y Matplotlib, ideal como primer acercamiento a la segmentación basada en color.
+
+🧪 **Muestreo y Cuantización de Imágenes**  
+Este cuaderno introduce los conceptos de muestreo espacial y cuantización de niveles de gris. Se analiza el efecto de reducir la resolución de una imagen y disminuir la profundidad de bits, observando su impacto visual. Ideal para entender la relación entre calidad y eficiencia en la representación digital.
+
+📌 **Proyecto Integrador: Análisis y Segmentación de Imágenes**  
 En este proyecto se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas. Se trabajó con imágenes representativas de casas de Hogwarts para explorar lo siguiente:
 
 - Lectura y visualización de imágenes en formato RGB.
@@ -40,9 +52,9 @@ Estas técnicas fueron aplicadas de forma secuencial, con visualización inmedia
 
 ## Herramientas Utilizadas
 
-- **Google Colab**: plataforma en la nube para ejecutar cuadernos interactivos.
-- **Python 3.x**
-- Bibliotecas principales: `NumPy`, `Matplotlib`, `OpenCV`, `Pillow`, `scikit-image`, `watermark`
+- Google Colab: plataforma en la nube para ejecutar cuadernos interactivos.
+- Python 3.x
+- Bibliotecas principales: NumPy, Matplotlib, OpenCV, Pillow, scikit-image, watermark
 
 ## ¿Cómo usar los cuadernos de Google Colab?
 
@@ -53,6 +65,12 @@ Estas técnicas fueron aplicadas de forma secuencial, con visualización inmedia
 
 ## Expansión del Repositorio
 
-Este proyecto integrador es el primero de una serie de trabajos prácticos que se irán agregando. Cada nuevo proyecto seguirá esta misma estructura y enfoque, permitiendo así construir un repositorio didáctico y de referencia para temas relacionados con el procesamiento digital de imágenes.
+Cada nuevo proyecto seguirá esta misma estructura y enfoque, permitiendo así construir un repositorio didáctico y de referencia para temas relacionados con el procesamiento digital de imágenes.
 
 Para más detalles técnicos sobre cada sección, consultar los respectivos cuadernos dentro de cada carpeta.
+
+## Contacto
+
+Si tenés preguntas, sugerencias o simplemente querés conectar, podés escribirme a:
+
+- carlosacorimayo@gmail.com
