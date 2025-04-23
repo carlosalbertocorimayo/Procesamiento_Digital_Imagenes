@@ -1,6 +1,6 @@
 # Actividades realizadas en el proyecto
 
-En el cuaderno compartido se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas. Se trabajó con imágenes representativas de casas de Hogwarts para explorar los temas abordados en los proyectos anteriores. Es decir, este proyecto explora técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
+En el cuaderno compartido se desarrolló una serie de pasos progresivos con el objetivo de analizar y segmentar imágenes en función del color y sus características morfológicas (formas, estructuras y patrones que se pueden identificar dentro de una imagen). Se toma como base todos los recursos aprendidos y utilizados en cuadernos anteriores para un análisis completo. Para ello, se trabajó con imágenes representativas de las casas de Hogwarts (Harry Potter) para explorar técnicas de procesamiento de imágenes usando Python, con enfoque en segmentación por color, cuantización de grises y detección de bordes. Las herramientas principales utilizadas son OpenCV, NumPy, Matplotlib y PIL.
 
 ## Contenido del Proyecto
 
@@ -54,17 +54,6 @@ En el cuaderno compartido se desarrolló una serie de pasos progresivos con el o
 - matplotlib
 - opencv-python
 - pillow
-
-## Ejecución
-
-1. Instalar las dependencias si es necesario:
-   ```bash
-   pip install numpy matplotlib opencv-python pillow
-   ```
-
-2. Cargar la imagen base (por ejemplo, `houses-hp.jpg`).
-
-3. Ejecutar los bloques de código por sección, según el análisis deseado.
 
 ## Aplicaciones
 - Sistemas de visión por computador.
